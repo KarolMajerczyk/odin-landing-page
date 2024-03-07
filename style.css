@@ -93,13 +93,13 @@ body {
 /*  */
 
 .features {
-  padding: 30px 0px 50px 0px;
+  padding: 50px 0px 100px 0px;
   color: black;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 48px;
 }
 
 .section-title {
@@ -128,3 +128,30 @@ body {
 }
 
 /*  */
+
+.testimonial-section {
+  background-color: #e5e7eb;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 80px 0px;
+}
+
+.testimonial {
+  width: 790px;
+}
+
+.testimonial-desc {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.testimonial-author {
+  text-align: right;
+  font-weight: 900;
+  color: black;
+  margin-right: 32px;
+}
