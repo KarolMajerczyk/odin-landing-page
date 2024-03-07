@@ -56,7 +56,7 @@ body {
 
 .hero {
   display: flex;
-  gap: 32px;
+  gap: 48px;
 
   padding: 100px 0px;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .btn {
-  padding: 8px 24px;
+  padding: 4px 24px;
   border-radius: 5px;
   border: none;
   color: #ffffff;
@@ -154,4 +154,35 @@ body {
   font-weight: 900;
   color: black;
   margin-right: 32px;
+}
+
+/*  */
+
+.cta-section {
+  padding: 100px 0px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-inverted {
+  border: 1px solid white;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+/*  */
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 36px;
 }
